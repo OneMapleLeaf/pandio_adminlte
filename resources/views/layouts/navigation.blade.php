@@ -48,11 +48,20 @@
                 </a>
             </li>
 
+              <li class="nav-item">
+                <a href="{{ route('employee.index') }}" class="nav-link">
+                    <i class="nav-icon fas fa-users"></i>
+                    <p>
+                        {{ __('Employee') }}
+                    </p>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a href="{{ route('students2.index') }}" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
-                        {{ __('Students2') }}
+                        {{ __('Profile') }}
                     </p>
                 </a>
             </li>

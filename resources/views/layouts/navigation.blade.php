@@ -49,7 +49,7 @@
             </li>
 
               <li class="nav-item">
-                <a href="{{ route('employee.index') }}" class="nav-link">
+                <a href="{{ route('employee2.index') }}" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
                         {{ __('Employee') }}
